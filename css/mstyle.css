@@ -1,8 +1,8 @@
 body{
 	margin: 0px 0px;
 	min-width: 1280px;
-    font-family: "微软雅黑";
-    background: #f7f9fb;
+	font-family: "微软雅黑";
+	background: #f7f9fb;
 }
 *
 {
@@ -40,7 +40,7 @@ body{
 	height: 60px;
 	
 	margin-top: 20px;
-   	margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .head_logo_text
@@ -81,11 +81,11 @@ body{
 
 }
 .dropdown {
-  position: relative;
-  display: inline-block;
-  margin:auto;
-  height: 60px;
-  margin-right: 10px; 
+	position: relative;
+	display: inline-block;
+	margin:auto;
+	height: 60px;
+	margin-right: 10px; 
 }
 .dropdown span
 {
@@ -100,18 +100,33 @@ body{
 .dropdown:hover span
 {
 	background-color: #A80000;
-    color: #fff;
-    cursor: pointer;
+	color: #fff;
+	cursor: pointer;
 }
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  margin-left: 10%;
-  width: 80%; 
+	opacity:0;
+	position: absolute;
+	background-color: #f9f9f9;
+	margin-left: 0%;
+	width: 80%; 
+	margin-top:-50px;
+    -webkit-transition:all ease .3s;
+    -moz-transition:all ease .3s;
+    -ms-transition:all ease .3s;
+    -o-transition:all ease .3s;
+    transition:all ease .3s;
+    visibility: hidden;
 }
+
+
+
 .dropdown:hover .dropdown-content {
-  display: block;
+
+	opacity:1;
+	margin-top:1px; 
+	margin-left: 10%;
+    visibility: visible;
+    
 }
 .dropdown-content p
 {
@@ -123,7 +138,7 @@ body{
 	color: #666;
 	border-bottom: 1px solid #eee;
 }
-.dropdown-content:hover p
+.dropdown-content p:hover
 {
 	color:  #A80000;
 	cursor: pointer;
@@ -142,24 +157,25 @@ body{
 	display: block;
 	margin: 0;
 	padding: 0;
-    height: 120px;
-    background: #FFF;
+	height: 120px;
+	background: #FFF;
 }
 .box li
 {
 	list-style: none;
 	width: 20%;
-    float: left;
-    height: 120px;
-    transition: .5s;
-    position: relative;
-    top: 0;
+	float: left;
+	height: 120px;
+	transition: .5s;
+	position: relative;
+	top: 3px;
 }
 .box li:hover
 {
-	top: -3px;
-    box-shadow: 3px 3px 3px #888888;
-    transition: .5s;
+	top: 0px;
+	box-shadow:3px 3px 3px #666;
+	transition: .5s;
+	cursor: pointer;
 }
 a{
 	text-decoration: none;
@@ -174,15 +190,15 @@ a{
 }
 .box li .box_text{
 	float: left;
-    padding-top: 40px;
-    padding-left: 15px;
+	padding-top: 40px;
+	padding-left: 15px;
 }
 .box_text span
 {
 	font-size: 14px;
-    color: #0b2642;
-    display: block;
-    font-weight: bold;
+	color: #0b2642;
+	display: block;
+	font-weight: bold;
 }
 
 #title_img
