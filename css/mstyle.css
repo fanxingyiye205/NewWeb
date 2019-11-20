@@ -2,7 +2,6 @@ body{
 	margin: 0px 0px;
 	min-width: 1280px;
 	font-family: "微软雅黑";
-	background: #f7f9fb;
 }
 *
 {
@@ -14,7 +13,7 @@ body{
 .head
 {
 	height: 192px;
-	width: 1200px;
+	
 	margin: auto;
 }
 .head_top
@@ -22,6 +21,12 @@ body{
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
+	background: #F3F3F3;
+}
+.head_top_center
+{
+	width: 1200px;
+	margin: auto;
 }
 .head_top_msg
 {
@@ -38,7 +43,8 @@ body{
 .head_logo
 {
 	height: 60px;
-	
+	width: 1200px;
+	margin:auto;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
@@ -73,11 +79,12 @@ body{
 }
 .head_item
 {
+	margin: auto;
 	border-top: 1px solid #ddd;
 	height: 60px;
 	clear: both;
 	text-align: center;
-
+	width: 1200px;
 
 }
 .dropdown {
@@ -247,4 +254,142 @@ a{
 .img_c_select
 {
 	background: #FFFFFF;
+}
+
+
+.gqrd
+{
+
+}
+.gqrd_center
+{
+	width: 1200px;
+	margin: auto;
+
+}
+.title1{
+	font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+    text-align: left;
+    height: 40px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+.title1 span
+{
+
+}
+.gqrd_left{
+	height: 360px;
+	width: 320px;
+	position: relative;
+	float: left;
+	margin-right: 20px; 
+	margin-bottom: 20px;
+}
+.gqrd_item
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.14);
+	-webkit-transition:all ease .3s;
+    -moz-transition:all ease .3s;
+    -ms-transition:all ease .3s;
+    -o-transition:all ease .3s;
+    transition:all ease .3s;
+    top:0px;
+    cursor: pointer;
+}
+.gb1/* "主页-高新认定-背景1 "*/
+{
+	background:url(./../images/home/gqrd01.png) no-repeat right bottom #fff;
+}
+.gb4
+{
+	background:url(./../images/home/gqrd04.png) no-repeat;
+}
+
+.gqrd_item:hover
+{
+	top:-10px;
+}
+.gqrd_right{
+	height: 360px;
+	width: 860px;
+	float: left;
+}
+.gqrd_right_item1
+{
+	float: left;
+	position: relative;
+	margin-right: 20px;
+	height: 170px;
+	width: 300px;
+	margin-bottom: 20px;
+
+}
+.gqrd_right_item2
+{
+	float: left;
+	position: relative;
+	height: 170px;
+	width: 220px;
+	margin-bottom: 20px;
+
+
+}
+.gqrd_item_s1{
+	font-size: 20px;
+    color: #4d4d4d;
+    line-height: 20px;
+    font-weight: bold;
+    display: block;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.gqrd_item_s2
+{
+	font-size: 14px;
+    color: #999999;
+    line-height: 24px;
+    margin-top: 14px;
+    display: block;
+    margin-left: 30px;
+}
+
+.gqrd_item_s3{
+	width: 100%;
+	height: 36px;
+	position: absolute;
+	bottom: 0px;
+	line-height: 36px;
+	padding-left: 10px; 
+	background-color:rgba(128,128,128,0.5);
+	/*z-index: 1000;*/
+	color: #fff;
+}
+.gqrd_item_button{
+	margin-left: 30px;
+	font-size: 14px;
+    color: #999;
+    display: block;
+    line-height: 30px;
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #999;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.gqrd_item_button:hover
+{
+	color: #A80000;
+	border: 1px solid #A80000;
+
 }
