@@ -470,12 +470,23 @@ a{
 }
 .hzys_item
 {
-	height: 320px;
+	height: 310px;
 	float: left;
 	width: 224px;
 	/*background: #FFF;*/
 	margin-right: 20px; 
+	text-align: center;
 }
+
+.hzys_item p
+{
+	color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    padding:0;
+}
+
 
 .h_bc1/* 合作优势item 背景色*/
 {
@@ -499,14 +510,21 @@ a{
 }
 
 
-
-
 .hzys_item_img
 {
-	background: #880;
-	width: 100%;
-	height: 80%;
+	background: url(./../images/home/hzys_c.png);
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    margin: 40px auto 20px;
+    -webkit-transition: all .8s;
+    transition: all .8s;
 }
+.hzys_item_img img
+{
+	vertical-align: middle;
+}
+
 
 
 @-webkit-keyframes zoomIn {
@@ -546,22 +564,46 @@ a{
 .fotter
 {
 	clear: both;
+	margin-top: 50px;
 }
 
 .fotter_top
 {
-	height: 165px;
+	height: 150px;
 	background: #f3f3f3;
+
 }
 .fotter_top_center
 {
 	margin: auto;
 	width: 1200px;
+	height: 100%;
+	background:  url(./../images/home/fotter_tc.png) no-repeat;
 }
 .fotter_top_item
 {
 	float: left;
 	width: 300px;
+	height: 100%;
+
+}
+.fotter_top_item span
+{
+	margin-left:130px;  
+	display: block;
+}
+.f_span1
+{
+	margin-top: 40px;
+	color: #050303;
+    font-size: 20px;
+    font-weight: 600
+}
+.f_span2,.f_span3
+{
+	color: #484444;
+    font-size: 14px;
+    margin-top: 3px;
 }
 
 .fotter_bottom{
@@ -582,7 +624,7 @@ a{
 }
 .rmxmtj
 {
-	height: 210px;
+	height: 240px;
 }
 .rmxmtj_center
 {
@@ -592,16 +634,63 @@ a{
 }
 .rmxmtj_item
 {
-	border-top: 3px solid #00cc99;
-	height: 210px;
+	
+	height: 240px;
 	width: 285px;
 	margin-right: 20px;
 	background: #FFF; 
 	float: left;
-	box-shadow:3px 3px 3px #999;
+	box-shadow:3px 3px 3px #eee;
 	transition: .3s;
 	margin-top: 0px; 
 
+}
+.rmxmtj_item div
+{
+	width: 138px;
+	height: 100px;
+	margin:auto;
+	margin-top:20px;
+}
+.rmxmtj_item span
+{
+	margin: auto;
+	font-size: 18px;
+    line-height: 18px;
+    margin-top: 20px;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    display: block;
+
+}
+.rmxmtj_item a
+{
+	margin: auto;
+	font-size: 14px;
+    color: #A80000;
+    display: block;
+    line-height: 32px;
+    margin-top: 10px;
+    height: 32px;
+    width: 98px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #A80000;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.rmxmtj_item a:hover
+{
+	color: #FFF;
+	background: #A80000;
+	border: 1px solid #A80000;
+
+}
+.h_r_btc1
+{
+	border-top: 3px solid #00cc99;
 }
 .h_r_btc2
 {
@@ -616,10 +705,46 @@ a{
 {
 	border-top: 3px solid #10be51;
 }
+.h_r_btc1 div
+{
+	background:  url(./../images/home/rmxmtj01.png) no-repeat;
+}
+.h_r_btc2 div
+{
+	background:  url(./../images/home/rmxmtj02.png) no-repeat;
+}
+.h_r_btc3 div
+{
+	background:  url(./../images/home/rmxmtj03.png) no-repeat;
+}
+.h_r_btc4 div
+{
+	background:  url(./../images/home/rmxmtj01.png) no-repeat;
+}
+.h_r_btc1 span
+{
+	color: #00cc99;
+}
+.h_r_btc2 span
+{
+	color: #1088d5;
+}
+.h_r_btc3 span
+{
+	color: #f05a25;
+}
+.h_r_btc4 span
+{
+	color: #10be51;
+}
+
+
+
 .rmxmtj_item:hover
 {
-	margin-top:-15px; 
+	margin-top:-10px; 
 	transition: .3s;
+	box-shadow:3px 3px 3px #AAA;
 }
 
 
