@@ -313,9 +313,29 @@ a{
 {
 	background:url(./../images/home/gqrd01.png) no-repeat right bottom #fff;
 }
+.gb2/* "主页-高新认定-背景1 "*/
+{
+	background:url(./../images/home/gqrd02.png) no-repeat right bottom #fff;
+}
+.gb3/* "主页-高新认定-背景1 "*/
+{
+	background:url(./../images/home/gqrd03.png) no-repeat right bottom #fff;
+}
 .gb4
 {
 	background:url(./../images/home/gqrd04.png) no-repeat;
+}
+.gb5/* "主页-高新认定-背景1 "*/
+{
+	background:url(./../images/home/gqrd05.png) no-repeat right bottom #fff;
+}
+.gb6/* "主页-高新认定-背景1 "*/
+{
+	background:url(./../images/home/gqrd06.png) no-repeat right bottom #fff;
+}
+.gb7/* "主页-高新认定-背景1 "*/
+{
+	background:url(./../images/home/gqrd07.png) no-repeat ;
 }
 
 .gqrd_item:hover
@@ -376,6 +396,7 @@ a{
 	background-color:rgba(128,128,128,0.5);
 	/*z-index: 1000;*/
 	color: #fff;
+	text-align: center;
 }
 .gqrd_item_button{
 	margin-left: 30px;
