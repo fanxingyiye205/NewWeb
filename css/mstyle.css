@@ -420,24 +420,28 @@ a{
 	border: 1px solid #A80000;
 
 }
-.srrdfw
+.h_srrd
 {
 	clear: both;
-	margin-top:20px; 
-	height: 620px;
+	height: 320px;
+	padding-bottom: 20px;
 }
-.srrdfw_center
+.h_srrd_center,.h_zscq_center
 {
 	width: 1200px;
 	margin:auto;
+	height: 100%;
 }
-.srrdfw_top
+.h_zscq
 {
-	height: 280px;
-	margin-bottom: 20px;
-
+	clear: both;
+	height: 301px;
+	clear: both;
+	/*margin-top:20px; */
+	/*margin-bottom: 20px;*/
+	padding-bottom: 20px; 
 }
-.srrdfw_item1
+.h_zscq_item
 {
 	height: 100%;
 	float: left;
@@ -448,7 +452,7 @@ a{
 	text-align: center;
 }
 
-.srrdfw_i_h_s
+.h_zscq_i_s_h
 {
 	color: #fff;
     display: none;
@@ -458,16 +462,16 @@ a{
     height: 32px;
     margin-top:100px;
 }
-.srrdfw_i_s{
+.h_zscq_i_s{
 	margin-top: 170px;
-	height: 116px;
+	height: 111px;
     text-align: center;
-    line-height: 116px;
+    line-height: 111px;
     font-size: 14px;
     color: #394044;
     display: block;
 }
-.srrdfw_i_h_b
+.h_zscq_i_b_h
 {
 	margin: auto;
 	font-size: 14px;
@@ -485,58 +489,54 @@ a{
     text-decoration: none;
 }
 
-.srrdfw_i_i1
+.h_zscq_i_i1
 {
-	background: url(./../images/home/srrdfw_item1_1.jpg) no-repeat top left #FFF ;
+	background: url(./../images/home/zscq_item_1.jpg) no-repeat top left #FFF ;
 }
-.srrdfw_i_i2
+.h_zscq_i_i2
 {
-	background: url(./../images/home/srrdfw_item1_2.jpg) no-repeat top left #FFF ;
+	background: url(./../images/home/zscq_item_2.jpg) no-repeat top left #FFF ;
 }
-.srrdfw_i_i3
+.h_zscq_i_i3
 {
-	background: url(./../images/home/srrdfw_item1_3.jpg) no-repeat top left #FFF ;
+	background: url(./../images/home/zscq_item_3.jpg) no-repeat top left #FFF ;
 }
-.srrdfw_i_i4
+.h_zscq_i_i4
 {
-	background: url(./../images/home/srrdfw_item1_4.jpg) no-repeat top left #FFF ;
+	background: url(./../images/home/zscq_item_4.jpg) no-repeat top left #FFF ;
 }
-.srrdfw_i_i5
+.h_zscq_i_i5
 {
-	background: url(./../images/home/srrdfw_item1_5.jpg) no-repeat top left #FFF ;
+	background: url(./../images/home/zscq_item_5.jpg) no-repeat top left #FFF ;
 }
 
-.srrdfw_item1:hover
+.h_zscq_item:hover
 {
 	transition: .3s;
-	background: url(./../images/home/srrdfw_item1_bg.jpg) no-repeat;
+	background: url(./../images/home/zscq_item_bg.jpg) no-repeat;
 }
-.srrdfw_item1:hover .srrdfw_i_h_s
-{
-	display: block;
-	transition: .3s;
-}
-.srrdfw_item1:hover .srrdfw_i_h_b
+.h_zscq_item:hover .h_zscq_i_s_h
 {
 	display: block;
 	transition: .3s;
 }
-.srrdfw_item1:hover .srrdfw_i_s
+.h_zscq_item:hover .h_zscq_i_b_h
+{
+	display: block;
+	transition: .3s;
+}
+.h_zscq_item:hover .h_zscq_i_s
 {
 	display: none;
 }
-.srrdfw_i_h_b:hover
+.h_zscq_i_b_h:hover
 {
 	border: 1px solid #A80000;
 	color: #A80000;
 }
-.srrdfw_bottom
-{
-	clear: both;
-	height: 285px;
-}
 
-.srrdfw_item2
+
+.h_srrd_item
 {
 	height: 100%;
 	margin-right: 20px;
@@ -546,36 +546,36 @@ a{
 	transition: .5s;
 	padding-top: 40px;
 }
-.srrdfw_item2:hover
+.h_srrd_item:hover
 {
 	transition: .5s;
 	background: #CCC;
 	/*box-shadow:3px 3px 3px #FFF;
 	margin-top:-5px; */
 }
-.srrdfw_item2:hover span
+.h_srrd_item:hover span
 {
 	transition: .5s;
 	color: #FFF;
 }
-.srrdfw_item2:hover p
+.h_srrd_item:hover p
 {
 	transition: .5s;
 	color: #FFF;
 }
-.srrdfw_item2 img
+.h_srrd_item img
 {
 	margin-left: 20px;
 	float: left;
 	display: block; 
 }
-.srrdfw_item2_d
+.h_srrd_item_d
 {
 	float: left;
 	margin-left: 20px;
 	width: 380px;
 }
-.srrdfw_item2_d span
+.h_srrd_item_d span
 {
 	display: block;
 	font-size: 18px;
@@ -584,14 +584,14 @@ a{
     margin-left: 30px;
     display: block;
 }
-.srrdfw_item2_d p{
+.h_srrd_item_d p{
 	margin: 0;
 	padding:0;
 	font-size: 16px;
     color: #2a2828;
     line-height: 30px;
 }
-.srrdfw_item2_d a
+.h_srrd_item_d a
 {
 	margin: auto;
 	font-size: 14px;
@@ -608,7 +608,7 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
-.srrdfw_item2_d a:hover
+.h_srrd_item_d a:hover
 {
 	background: #A80000;
 	color:#FFF;
@@ -723,6 +723,25 @@ a{
 .hzys_item:hover .hzys_item_img{
 	-webkit-animation: zoomIn 1s 0s ease both;
     animation: zoomIn 1s 0s ease both;
+}
+.h_hzlc
+{
+	clear: both;
+	padding-bottom: 20px;
+	background: #FFF;
+}
+.h_hzlc_center
+{
+	height: 468px;
+	text-align: center;
+	width: 1200px;
+	margin: auto;
+}
+
+.h_hzlc_center img
+{
+	margin-top:40px;
+	vertical-align: middle;
 }
 
 .fotter
