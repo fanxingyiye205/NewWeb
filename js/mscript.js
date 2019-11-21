@@ -181,11 +181,11 @@ $(function(){
 			return;
 		var hash = hashs.split("#");
 		var mid = "div[mid='"+hash[1]+"']";
+		var imid = "img[mid='"+hash[1]+"']";
 		$(".mid").hide();
 		$(mid).show();
+		$(imid).show();
 		
-		$("#p_img").find("img").attr("src","./images/"+hash[1]+".jpg");
-
 		var did_text = hash[1].split("_")[0];
 		
 
