@@ -178,7 +178,7 @@ $(function(){
 	{
 		console.log("hashs:"+hashs.length);
 		if(hashs.length<=0)
-			return;
+			hashs="#pgqrd";
 		var hash = hashs.split("#");
 		var mid = "div[mid='"+hash[1]+"']";
 		var imid = "img[mid='"+hash[1]+"']";
