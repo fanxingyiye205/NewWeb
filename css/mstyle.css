@@ -10,10 +10,14 @@ body{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
+a
+{
+	outline: none;
+    text-decoration: none;
+}
 .head
 {
-	height: 192px;
+	height: 190px;
 	
 	margin: auto;
 }
@@ -106,6 +110,12 @@ body{
 	padding-left: 42px;
 	padding-right: 42px;  
 }
+.d_select span
+{
+	background-color: #A80000;
+	color: #fff;
+}
+
 .dropdown:hover span
 {
 	background-color: #A80000;
@@ -146,6 +156,11 @@ body{
 	font-size: 14px; 
 	color: #666;
 	border-bottom: 1px solid #eee;
+}
+.dropdown-content p.dc_select_p
+{
+	color:  #A80000;
+	cursor: pointer;
 }
 .dropdown-content p:hover
 {
@@ -936,7 +951,10 @@ a{
 	box-shadow:3px 3px 3px #AAA;
 }
 
-
+.mid
+{
+	display: none;
+}
 
 
 
