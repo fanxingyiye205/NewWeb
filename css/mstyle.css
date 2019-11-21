@@ -618,7 +618,7 @@ a{
 {
 	background: #F3F3F3;
 	clear: both;
-	margin-top:20px; 
+	padding-bottom: 20px; 
 }
 .hzys_center
 {
@@ -728,13 +728,14 @@ a{
 {
 	clear: both;
 	padding-bottom: 20px;
-	background: #FFF;
+	
 }
 .h_hzlc_center
 {
-	height: 468px;
+	height: 448px;
 	text-align: center;
 	width: 1200px;
+	background: #FFF;
 	margin: auto;
 }
 
