@@ -1,0 +1,212 @@
+.pgqrd_center
+{
+	width: 100%;
+	background: #FFF;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+.become_wrap
+{
+	margin: 40px auto;
+	width: 1280px;
+}
+.beTitle
+{
+	margin: auto;
+	width: 597px;
+	height: 42px;
+}
+.twoTitle
+{
+	width: 600px;
+	height: 40px;
+	background: #69cffa;
+	border-radius: 22px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 24px;
+	margin: 25px auto 25px;
+}
+.clearfix
+{
+	height: 190px;
+	list-style: none;
+	zoom: 1;
+}
+.clearfix li{
+	float: left;
+	margin-right: 25px;
+	cursor: pointer;
+}
+.clearfix li p{
+	width: 120px;
+	height: 115px;
+	background: #69cffa;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	padding-top: 25px;
+	line-height: 35px;
+	margin-bottom: 6px;
+}
+.clearfix li .be1{
+	background:#498bfc;
+}
+.clearfix li .be2{
+	background:#69cffa;
+}
+.clearfix li .be3{
+	background:#ff8040;
+}
+.clearfix li .be4{
+	background:#f54e91;
+}
+.become ul li .be5{
+	background:#13a79d;
+}
+.clearfix li .be6{
+	background:#27a9f4;
+}
+.clearfix li .be7{
+	background:#fcae14;
+}
+.clearfix li .be8{
+	background:#ff8040;
+}
+.clearfix li b{
+	display: block;
+	width: 51px;
+	height: 51px;
+	background: url(./../images/gqrd/twosj.png) center no-repeat;
+	margin: 14px auto;
+	display: none;
+}
+.clearfix li.hover p{
+	box-shadow: 1px 1px 10px #a1e0fa;
+}
+.become_wrap ol{
+	display: block;
+	list-style-type: decimal;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+
+
+}
+.become_wrap ol li{
+	width: 1180px;
+	height: 300px;
+	padding: 40px 0;
+	background: #f0fafe;
+	display: none;
+	margin: 0 auto;
+}
+.become_wrap ol li p.number {
+	float: left;
+	width: 135px;
+	margin-left: 10px;
+}
+.become_wrap ol li p
+{
+	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	color: #666666;
+	font-size: 16px;
+	line-height: 30px;
+}
+.become_wrap ol li div {
+	width: 1010px;
+	float: left;
+	margin-left: 20px;
+}
+h5{
+	display: block;
+	font-size: 0.83em;
+	margin-block-start: 1.67em;
+	margin-block-end: 1.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+.become_wrap ol li h5{
+	font-size: 24px;
+	color: #69cffa;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+
+/*dsds*/
+
+
+
+.gxrd_hc_title
+{
+	margin: auto;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	height: 110px;
+	line-height: 110px;
+}
+.gxrd_hc_title span{
+	color: #c40000;
+	font-size: 42px;
+}
+.gxrd_hc_content
+{
+	margin: 20px auto;
+	width: 1180px;
+	height: 470px;
+
+}
+.hc_content
+{
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin: 10 auto;
+}
+.hc_img
+{
+	width: 100%;
+	text-align: center;
+}
+.hc_text span
+{
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+}
+.hc_text .hc_t1
+{
+	font-size: 18px;
+}
+.hc_text .hc_t2
+{
+	font-size: 14px;
+}
+.gbrd_fw
+{
+	width: 1180px;
+	margin: 20px auto;
+}
+.gbrd_fw_content
+{
+	border: 3px solid #0676b6;
+	height: 347px;
+}

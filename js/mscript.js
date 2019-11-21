@@ -216,4 +216,18 @@ $(function(){
 
 	var hashs =  window.location.hash;
 	page_init(hashs);
+
+
+
+	$(".clearfix li").mouseenter(function(){
+		var cn = Number($(this).find("p").attr("class").substring(2));
+		console.log(cn);
+		$(".clearfix li").find("b").css("display","none");
+		$(this).find("b").css("display","block");
+		var ol_li = $(".become_wrap ol").find("li");
+		$(".become_wrap ol").find("li").attr("style","display:none");
+		$(ol_li[cn-1]).attr("style","display:list-item")
+		console.log($(ol_li[cn]))
+
+	})
 })
