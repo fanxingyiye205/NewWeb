@@ -155,10 +155,9 @@ body{
 .box
 {
 	width: 1200px;
-	height: 140px;
+	height: 120px;
 	margin:auto;
-	margin-top:0px; 
-	margin-bottom: 20px; 
+	margin-top:0px;
 }
 
 .box ul
@@ -223,6 +222,13 @@ a{
 	overflow: hidden;
 	height: 400px;
 }
+#p_img
+{
+	width: 100%;
+	overflow: hidden;
+	height: 400px;
+
+}
 .img_circle
 {
 	width: 120px;
@@ -262,7 +268,7 @@ a{
 
 .gqrd
 {
-	height: 400px;
+	height: 370px;
 }
 .gqrd_center
 {
@@ -278,7 +284,7 @@ a{
     text-align: left;
     height: 40px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;  
     width: 1200px;
 }
@@ -424,7 +430,6 @@ a{
 {
 	clear: both;
 	height: 320px;
-	padding-bottom: 20px;
 }
 .h_srrd_center,.h_zscq_center
 {
@@ -618,13 +623,13 @@ a{
 {
 	background: #F3F3F3;
 	clear: both;
-	padding-bottom: 20px; 
+	height: 360px;
 }
 .hzys_center
 {
 	width: 1200px;
 	margin: auto;
-	height: 360px;
+	height: 100%;
 }
 .hzys_content
 {
@@ -727,15 +732,15 @@ a{
 .h_hzlc
 {
 	clear: both;
-	padding-bottom: 20px;
-	
+	background: #FFF;
+	height: 448px;
 }
 .h_hzlc_center
 {
-	height: 448px;
+	
 	text-align: center;
 	width: 1200px;
-	background: #FFF;
+	
 	margin: auto;
 }
 
