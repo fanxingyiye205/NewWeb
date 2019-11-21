@@ -215,7 +215,9 @@ $(function(){
 	});
 
 	var hashs =  window.location.hash;
-	page_init(hashs);
+	var href=window.location.href;
+	if(href.indexOf("page")>=0) 
+		page_init(hashs);
 
 
 
