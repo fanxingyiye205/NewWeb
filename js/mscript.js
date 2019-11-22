@@ -180,6 +180,7 @@ $(function(){
 		if(hashs.length<=0)
 			hashs="#pgqrd";
 		var hash = hashs.split("#");
+		console.log(hash);
 		var mid = "div[mid='"+hash[1]+"']";
 		var imid = "img[mid='"+hash[1]+"']";
 		$(".mid").hide();
@@ -201,6 +202,18 @@ $(function(){
 		if(dcpid.length>0)
 		{
 			$(dcpid).addClass("dc_select_p");
+		}
+		if(hash.length>=3)
+		{
+			$(".tid").hide();
+			var mid2 = "div[mid='"+hash[2]+"']";
+			var did2 = "li[did='"+hash[2]+"']";
+			$(did2).addClass("pkjzc_t_li2_click");
+			console.log("did2:"+did2);
+			console.log($(did2));
+			$(did2).parent("ul").parent("li").addClass("pkjzc_t_li1_o");
+			console.log("mid2:",mid2);
+			$(mid2).show();
 		}
 
 	}
@@ -229,7 +242,50 @@ $(function(){
 		var ol_li = $(".become_wrap ol").find("li");
 		$(".become_wrap ol").find("li").attr("style","display:none");
 		$(ol_li[cn-1]).attr("style","display:list-item")
-		console.log($(ol_li[cn]))
+		console.log($(ol_li[cn]));
+
+	})
+ 
+	$(".pkjzc_t_li1>a").click(function(){
+		console.log(this);
+		var p = $(this).parent("li");
+		// console.log(p);
+		// console.log(p.length);
+		var display = $(p).children("ul").css("display");
+		// $(".pkjzc_t_ul2").hide();
+		// console.log(display);
+
+		// $(".pkjzc_t_li1").removeClass("pkjzc_t_li1_o");
+		if(display=='none')
+		{
+			$(p).addClass("pkjzc_t_li1_o");
+			// $(this).children("ul").show();
+		}
+		else
+		{
+			// $(this).children("ul").hide();
+			$(p).removeClass("pkjzc_t_li1_o");
+		}
+		
+	});
+	var top=0;
+	$(".pkjzc_t_li1>a").hover(function(){
+	    top = $(this).parent("li").position().top-630;
+		console.log(top);
+		var css = "width:5px; height: 60px;opacity: 1;margin-top:"+top+"px;";
+		$(".pkjzc_t_bar").attr("style",css);
+	},function(){
+		var css = "width:0px;height: 0px;opacity: 0;margin-top:"+top+"px;";
+		$(".pkjzc_t_bar").attr("style",css);
+	});
+	$(".pkjzc_t_ul2>li").click(function(){
+		$(".pkjzc_t_li2_click").removeClass("pkjzc_t_li2_click");
+		$(this).addClass("pkjzc_t_li2_click");
+
+		var href = $(this).children("a").attr("href");
+		console.log(href);
+		var i = href.indexOf("#");
+		page_init(href.substring(i));
 
 	})
 })
