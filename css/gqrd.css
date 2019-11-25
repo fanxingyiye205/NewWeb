@@ -210,3 +210,38 @@ h5{
 	border: 3px solid #0676b6;
 	height: 347px;
 }
+.pg_j_hc,.pg_j_fy,.pg_j_xy
+{
+	text-align: center;
+	margin:20px auto;
+}
+.pg_j_hc_content
+{
+	width: 1200px;
+	margin: auto;
+}
+
+
+.pg_j_title1
+{
+	font-size: 28px;
+    line-height: 1em;
+    padding-bottom: 13px;
+    color: #666;
+}
+.pg_j_title2
+{
+	font-size: 16px;
+    line-height: 1.5em;
+    color: #999;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.hr
+{
+	width: 50px;
+    height: 3px;
+    background-color: #A80000;
+    margin: 0 auto;
+}
