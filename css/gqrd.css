@@ -246,7 +246,7 @@ h5{
 	margin: 0 auto;
 }
 
-table,th,td
+.pg_j_xy_table table,  .pg_j_xy_table  td
 {
 	border:1px solid #fff;
 	color: #666666;
@@ -258,7 +258,7 @@ table,th,td
 	line-height: 28px;
 	border-collapse: collapse;
 }
-table
+.pg_j_xy_table>table
 {
 	width: 1200px;
 	margin: 20px auto;
@@ -281,4 +281,69 @@ table
 {
 	text-align: center;
 	width: 130px;
+}
+
+.gxrd_gjzd_content
+{
+	width: 1200px;
+	margin: 20px auto;
+}
+.gxrd_gjzd_table>table
+{
+	height: 288px;
+	width: 100%;
+	border-collapse: collapse;
+
+}
+.gxrd_gjzd_table>td
+{
+	width: 25%;
+	height: 144px;
+}
+.gxrd_gjzd_table .td_b
+{
+	border-bottom: 1px solid #eee;
+}
+.gxrd_gjzd_table .td_r
+{
+	border-right: 1px solid #eee;
+}
+.gxrd_gjzd_table .td_img
+{
+	float: left;
+	width: 40%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+}
+.gxrd_gjzd_table .td_img img
+{
+	padding-top:50px; 
+}
+.gxrd_gjzd_table .td_text
+{
+	float: left;
+	width: 60%;
+	text-align: left;
+}
+.gxrd_gjzd_table .td_text .t1
+{
+	font-size: 20px;
+    color: #333;
+    line-height: 48px;
+    display: block;
+    margin-top:10px;
+}
+.gxrd_gjzd_table .td_text .t2
+{
+	font-size: 14px;
+    color: #555;
+    line-height: 19px;
+}
+.gxrd_sblc_content
+{
+	width: 1200px;
+	background:url(./../images/gqrd/sblc.png) no-repeat;
+	margin: 20px auto;
+	height: 416.64px;
 }
