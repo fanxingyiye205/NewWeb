@@ -210,15 +210,15 @@ h5{
 	border: 3px solid #0676b6;
 	height: 347px;
 }
-.pg_j_hc,.pg_j_fy,.pg_j_xy
+.pg_j_hc,.pg_j_fy,.pg_j_xy,.pg_j_lc,.pg_j_al
 {
 	text-align: center;
-	margin:20px auto;
+	margin:50px auto;
 }
-.pg_j_hc_content
+.pg_j_hc_content,.pg_j_lc_content,.pg_j_al_conenet
 {
 	width: 1200px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 
@@ -264,6 +264,7 @@ h5{
 	margin: 20px auto;
 	background: #ddd;
 	text-align: left;
+	margin-bottom: 50px; 
 
 }
 
@@ -346,4 +347,98 @@ h5{
 	background:url(./../images/gqrd/sblc.png) no-repeat;
 	margin: 20px auto;
 	height: 416.64px;
+}
+.pg_j_lc_img
+{
+	margin: 20px auto;
+	text-align: center;
+}
+.pg_j_hc_img_bg
+{
+	height: 727px;
+	width: 1198px;
+	background:url(./../images/gqrd/jjkc/hc_bg.png) no-repeat;
+}
+.pg_j_hc_p1
+{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+    color: #4d4d4d;
+    padding-top:340px; 
+}
+.pg_j_hc_p2
+{
+	font-size: 24px;
+    color: #4d4d4d;
+    padding-left: 160px;
+    text-align: left;
+    margin: 0;
+}
+.pg_j_hc_p3
+{
+	color: #6e6e6e;
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 160px;
+    padding-top: 14px;
+    text-align: left;
+    margin: 0;
+}
+.pg_j_hc_p3 span
+{
+	color: red;
+}
+
+.pg_j_hc_p4
+{
+	color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 160px;
+    padding-top: 35px;
+    text-align: left;
+    margin: 0;
+}
+.pg_j_hc_p4 span
+{
+	font-weight: bold;
+}
+.pg_j_hc_p5
+{
+	color: #b4b4b4;
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 160px;
+    padding-top: 33px;
+    margin: 0;
+    text-align: left;
+}
+.pg_j_al_img_bg
+{
+	height: 450px;
+	margin: 10px auto;
+	background:url(./../images/gqrd/jjkc/al_bg.png) no-repeat;
+}
+.pg_j_al_p1
+{
+	font-size: 24px;
+    color: #222;
+    line-height: 40px;
+    padding-left: 555px;
+    text-align: left;
+    padding-top: 120px;
+}
+.pg_j_al_p1 span
+{
+	font-weight: bold;
+}
+.pg_j_al_p2
+{
+	font-size: 18px;
+    color: #777;
+    line-height: 30px;
+    padding-left: 555px;
+    padding-top: 30px;
+    text-align: left;
 }
