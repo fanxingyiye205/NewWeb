@@ -1,0 +1,157 @@
+.pz_gb_content,.pz_fw_content,.pz_rz_hc_content,.pz_fw_lc_content
+{
+	margin: 50px auto;
+	text-align: center;
+}
+.pz_fw_cont
+{
+	border: 3px solid #0676b6;
+	height: 347px;
+	width: 1180px;
+	margin: 20px auto;
+}
+
+.fw_left
+{
+	float: left;
+	width: 22%;
+	background: #0676b6;
+	display: inline;
+	height: 100%;
+}
+.fw_left_img
+{
+	display: block;
+	width: 137px;
+	height: 137px;
+	margin: 50px auto 18px;
+}
+.fw_left_text
+{
+	margin: 0 auto;
+	line-height: 42px;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	width: 130px;
+}
+.fw_center
+{
+	margin: 32px 0 0 34px;
+	max-width: 610px;
+	text-align: left;
+	float: left;
+	width: 58%;
+}
+.fw_c_item
+{
+	display: inline-block;
+	margin-right: 10px;
+	width: 137px;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	color: #fff;
+	background: url(./../images/zscq/fw2.png) center no-repeat;
+	font-size: 18px;
+}
+.fw_c_i2
+{
+	color: #919191;
+	font-size: 18px;
+}
+.fw_c_list
+{
+	display: inline-block;
+	width: 450px;
+	vertical-align: -117px;
+}
+.fw_c_desc
+{
+	margin: 25px 0 10px;
+}
+.fw_c_i3
+{
+	display: inline-block;
+	margin-bottom: 15px;
+	width: 220px;
+	font-size: 16px;
+	color: #575757;
+}
+.fw_c_i_em
+{
+	display: inline-block;
+	margin-right: 10px;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	background: #a6a2a2;
+}
+.fw_right
+{
+	float: left;
+	padding-left: 31px ;
+	height: 280px;
+	
+	margin-top:  34px;
+	border-left: 1px solid #e5e4e3;
+	
+
+}
+.fw_r_bt
+{
+	width: 212px;
+	height: 60px;
+	font-size: 24px;
+	color: #fff;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	border: 0;
+	border-radius: 4px;
+	background: #ff733c;
+	margin-top: 105px;
+	cursor: pointer;
+	
+}
+.pz_fw_lc_cont
+{
+	margin: 30px auto;
+	height: 360px;
+	width: 1200px;
+}
+.fw_p_item
+{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	margin: 20px 0;
+}
+.fw_p_i_img
+{
+	display: block;
+	margin: 20px auto;
+}
+.fw_p_i_line
+{
+	width: 40px;
+	height: 3px;
+	background-color: #049ad9;
+	margin: 10px auto;
+}
+.fw_p_i_t1
+{
+	font-size: 16px;
+	color: #666;
+	line-height: 1em;
+	text-align: center;
+}
+.fw_p_i_t2
+{
+	font-size: 14px;
+	color: #999;
+	line-height: 1em;
+	text-align: center;
+}

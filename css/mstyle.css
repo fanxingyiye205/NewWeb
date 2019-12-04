@@ -960,7 +960,43 @@ a{
 
 
 
-
+.cj_quest
+{
+	width:1200px;
+	margin: 20px auto;
+	clear: both;
+	background: #f3f3f3;
+	padding: 20px 50px;
+	box-shadow:3px 3px 3px #AAA;
+	border-radius: 10px; 
+}
+.cj_quest_title
+{
+	text-align: left;
+}
+.cj_quest_title span
+{
+	font-size: 24px;
+}
+.cj_quest_q
+{
+	margin: 20px auto;
+}
+.cj_quest_a
+{
+	margin: 10px auto;
+	line-height: 36px;
+}
+.cj_quest_q span
+{
+	font-size: 18px;
+	color: #FF0000;
+	
+}
+.cj_quest_a span
+{
+	font-size: 16px;
+}
 
 
 
