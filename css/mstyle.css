@@ -251,6 +251,13 @@ a{
 	height: 400px;
 
 }
+#p_img img
+{
+	width: 100%;
+	height: 400px;
+
+}
+
 .img_circle
 {
 	width: 120px;
@@ -961,7 +968,6 @@ a{
 .mid
 {
 	display: none;
-	width: 100%;
 }
 
 

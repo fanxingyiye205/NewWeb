@@ -1,4 +1,4 @@
-.pz_gb_content,.pz_fw_content,.pz_rz_hc_content,.pz_fw_lc_content
+.pz_gb_content,.pz_fw_content,.pz_rz_hc_content,.pz_fw_lc_content,.pz_what_content,.pz_lc_n_content
 {
 	margin: 50px auto;
 	text-align: center;
@@ -154,4 +154,83 @@
 	color: #999;
 	line-height: 1em;
 	text-align: center;
+}
+.pz_what_cont
+{
+	margin: 57px auto 0 auto;
+    overflow: hidden;
+    width: 1200px;
+    height: 422px;
+    text-align: left;
+    background: url(./../images/zscq/what_bg.png) no-repeat center;
+}
+.pz_what_cont_l
+{
+	width: 440px;
+    height: 280px;
+    float: left;
+    margin: 64px 20px 0 97px;
+    overflow: hidden;
+}
+.pz_what_cont_l h3
+{
+	width: 100%;
+    height: 66px;
+    line-height: 66px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.pz_what_cont_l p
+{
+	margin-top:0px;
+	width: 100%;
+    line-height: 40px;
+    font-size: 15px;
+    color: #333333;
+}
+.pz_lc_n_cont
+{
+	overflow: hidden;
+    width: 100%;
+    height: 570px;
+    margin: auto;
+    background: url(./../images/zscq/gblc.jpg) no-repeat center;
+}
+.pz_lc_hc
+{
+    width: 1200px;
+    margin: auto;
+
+    height: 566px;
+    padding: 14px 0px 20px 0px;
+    padding-left: 525px;
+	background: url(./../images/zscq/gbhc_what.png) no-repeat center;
+}
+.pz_lc_hc_item
+{
+    height: 72px;
+    overflow: hidden;
+    clear: both;
+    color: #fff;
+    margin-bottom: 44px; 
+}
+.pz_lc_hc_item span
+{
+	float: left;
+    width: 100px;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: left;
+}
+.pz_lc_hc_item p
+{
+	text-align: left;
+	float: right;
+    width: 470px;
+    padding-right: 25px;
+    font-size: 16px;
+    line-height: 25px;
 }
