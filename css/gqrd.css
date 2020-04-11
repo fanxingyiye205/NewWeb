@@ -442,3 +442,25 @@ h5{
     padding-top: 30px;
     text-align: left;
 }
+
+.gxrd_select
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+.s_l_img
+{
+	display: inline-block;
+	float: left;
+	width: 600px;
+}
+.s_l_img img
+{
+	width: 90%;
+}
+.s_r_img
+{
+	display: inline-block;
+	float: right;
+	margin-top:100px;
+}

@@ -961,6 +961,7 @@ a{
 .mid
 {
 	display: none;
+	width: 100%;
 }
 
 
@@ -1188,4 +1189,71 @@ a{
     color: #999;
     /*width:300px;*/
     /*margin-left: 100px;*/
+}
+.pgqrd_ly_content_bk
+{
+	width: 1200px;
+	margin: auto;
+	height: 400px;
+	/*margin-top: 32px;*/
+	background: url("./../images/gqrd/gq_8dly.png") no-repeat top center;
+}
+.pgqrd_ly
+{
+	position: relative;
+}
+.pgqrd_ly_content{
+	position: absolute;
+	top: 188px;
+	left: 0;
+	right: 0;
+	width: 1200px;
+	margin: auto;
+}
+.pgqrd_ly_item
+{
+	/*margin-top:10px;*/
+	width: 100%;
+	display: block;
+	clear: both;
+	height: 60px;
+	margin-top:9px;
+
+}
+.pgqrd_ly_item .ly_item_zx
+{
+	display: inline-block;
+	width: 167px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    float: left;
+    border-radius: 10px;
+    /*background: #35B3CD;*/
+}
+.pgqrd_ly_item .ly_item_t0
+{
+	float: left;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	width: 433px;
+	padding-left: 50px;
+	height: 60;
+	
+
+}
+.pgqrd_ly_item .ly_item_t1
+{
+	float: left;
+	width: 433px;
+	text-align: right;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	padding-right: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px; 
 }
