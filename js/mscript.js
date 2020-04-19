@@ -372,3 +372,37 @@ $(function(){
 	});
 
 });
+
+$(function(){
+	$(".z_b_s_c_item").hover(function(){
+		var imgsrc = $(this).find("img").attr("src");
+		var imgname = imgsrc.split(".png");
+		var imgsrch = imgname[0]+'h.png';
+		$(this).find("img").attr("src",imgsrch);
+	
+
+	},function(){
+		
+		var imgsrch = $(this).find("img").attr("src");
+		var imgname = imgsrch.split("h.png");
+		var imgsrc = imgname[0]+'.png';
+		$(this).find("img").attr("src",imgsrc);
+
+	});
+
+	$(".sel_item").click(function(){
+		var id = $(this).attr("id");
+		$(".sel_item").removeClass("active");
+		$(this).addClass("active");
+		if(id == "zzqdj")
+		{
+			$(".zscq_bq_sq_dj").css("display","block");
+			$(".zscq_bq_sq_yw").css("display","none");
+		}
+		if(id=="zzqyw")
+		{
+			$(".zscq_bq_sq_dj").css("display","none");
+			$(".zscq_bq_sq_yw").css("display","block");
+		}
+	});
+});

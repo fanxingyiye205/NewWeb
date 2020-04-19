@@ -13,12 +13,13 @@
 		var kjzccss = '<link rel="stylesheet" type="text/css" href="css/kjzc.css?v='+new Date().getTime()+'" />'
 		var zscqcss = '<link rel="stylesheet" type="text/css" href="css/zscq.css?v='+new Date().getTime()+'" />'
 		var srrdcss = '<link rel="stylesheet" type="text/css" href="css/srrd.css?v='+new Date().getTime()+'" />'
-
+		var iconfontcss = '<link rel="stylesheet" type="text/css" href="css/iconfont.css?v='+new Date().getTime()+'" />'
 		document.write(css);
 		document.write(gqrdcss);
 		document.write(kjzccss);
 		document.write(zscqcss);
 		document.write(srrdcss);
+		document.write(iconfontcss);
 		document.write(js);
 	</script>
 
@@ -59,7 +60,7 @@
 				<a href="./page.html#pzscq"><span>知识产权服务</span>
 					<div class="dropdown-content">
 						<a href="./page.html#pzscq_bq"><p dcpid="pzscq_bq">版权服务</p></a>
-						<a href="./page.html#pzscq_gb"><p dcpid="pzscq_gb">商标服务</p></a>
+						<a href="./page.html#pzscq_sb"><p dcpid="pzscq_sb">商标服务</p></a>
 					</div>
 				</a>
 			</div>
@@ -71,8 +72,8 @@
 				<a href="./page.html#pkjzc"><span>科技政策扶持</span></a>
 
 			</div>
-			<div class="dropdown" did="pkjzc">
-				<a href="./page.html#pkjzc"><span>新闻资讯</span></a>
+			<div class="dropdown" did="pxwzx">
+				<a href="./page.html#pxwzx"><span>新闻资讯</span></a>
 
 			</div>
 			<div class="dropdown" style="margin-right: 0px " did="pabout">
@@ -87,13 +88,14 @@
 			<img mid="pgqrd_jjkc" class="mid" src="./images/pgqrd_jjkc.jpg" draggable="false"/>
 			<img mid="pgbrd" class="mid" src="./images/pgbrd.jpg" draggable="false"/>
 			<img mid="pzscq" class="mid" src="./images/pzscq.jpg" draggable="false"/>
-			<img mid="pzscq_bq" class="mid" src="./images/pzscq_bq.jpg" draggable="false"/>
-			<img mid="pzscq_gb" class="mid" src="./images/pzscq_gb.jpg" draggable="false"/>
+			<img mid="pzscq_bq" class="mid" src="./images/pzscq_bq.png" draggable="false"/>
+			<img mid="pzscq_sb" class="mid" src="./images/pzscq_sb.jpg" draggable="false"/>
 			<img mid="psrrd" class="mid" src="./images/psrrd.jpg" draggable="false"/>
 			<img mid="pkjzc" class="mid" src="./images/pkjzc.jpg" draggable="false"/>
+			<img mid="pxwzx" class="mid" src="./images/pxwzx.jpg" draggable="false"/>
 			<img mid="pkjzc_text" class="mid" src="./images/pkjzc_text.jpg" draggable="false"/>
 			<img mid="pcontact" class="mid" src="./images/pcontact.jpg" draggable="false"/>
-			<img mid="pabout" class="mid" src="./images/pabout.jpg" draggable="false"/>
+			<img mid="pabout" class="mid" src="./images/pabout.png" draggable="false"/>
 		</div>
 		<div mid="pgqrd" class="mid">
 			<div class="pgqrd_ly">
@@ -800,10 +802,10 @@
 					<h3>
 						<span>知识产权的<font>重要性</font></span>
 					</h3>
-					<h4>
+					<h4 style="display: none">
 						<span>The Importance of Intellectual Property Rights</span>
 					</h4>
-					<img src="./images/zscq/zscq_zyx_00.png" />
+					<img src="./images/zscq/zscq_zyx_00.png" style="display: none" />
 				</div>
 				<div class="zscq_zyx_content">
 					<div class="z_z_c_left">
@@ -848,10 +850,276 @@
 
 		</div>
 		<div mid="pzscq_bq" class="mid">
-			<div>zscq_bq</div>
+			<div class="zscq_bq_sq">
+				<div class="zscq_bq_sq_title">
+					<h3>
+						<span>版权申请的<font>业务</font></span> 
+					</h3>
+				</div>
+				<div class="zscq_bq_sq_sel">
+					<div class="sel_item active" id="zzqdj">                                           
+						<span>著作权登记</span>                                        
+					</div>
+
+					<div class="sel_item" id="zzqyw">                                           
+						<span>著作权业务</span>                                        
+					</div>
+				</div>
+				<div class="zscq_bq_sq_content">
+					<div class="zscq_bq_sq_dj">
+						<div class="z_b_s_c_item">
+							<a href="">
+								<img class="img_d"  alt="软件著作" title="软件著作" src="./images/zscq/bqfw/zzqdj_item01.png">
+								<span>软件著作</span>
+							</a>
+						</div>
+						<div class="z_b_s_c_item">
+
+							<a href="">
+								<img class="img_d"  alt="美术作品版权" title="美术作品版权" src="./images/zscq/bqfw/zzqdj_item02.png">
+								<span>美术作品版权</span>
+							</a>
+
+						</div>
+						<div class="z_b_s_c_item">
+
+							<a href="">
+								<img class="img_d"  alt="影视作品" title="影视作品" src="./images/zscq/bqfw/zzqdj_item03.png">
+								<span>影视作品</span>
+							</a>
+
+						</div>
+						<div class="z_b_s_c_item">
+
+							<a href="">
+								<img class="img_d"  alt="文字作品" title="文字作品" src="./images/zscq/bqfw/zzqdj_item04.png">
+								<span>文字作品</span>
+							</a>
+
+						</div>
+						<div class="z_b_s_c_item">
+
+							<a href="">
+								<img class="img_d"  alt="音乐作品" title="音乐作品" src="./images/zscq/bqfw/zzqdj_item05.png">
+								<span>音乐作品</span>
+							</a>
+
+						</div>
+						<div class="z_b_s_c_item">
+
+							<a href="">
+								<img class="img_d"  alt="设计图作品" title="设计图作品" src="./images/zscq/bqfw/zzqdj_item06.png">
+								<span>设计图作品</span>
+							</a>
+
+						</div>
+
+					</div>
+					<div class="zscq_bq_sq_yw" style="display: none">
+						<div class="z_b_s_c_item">
+							<a href="">
+								<img class="img_d"  alt="软件著作权查询" title="软件著作权查询" src="./images/zscq/bqfw/zzqyw_item01.png">
+								<span>软件著作权查询</span>
+							</a>
+						</div>
+						<div class="z_b_s_c_item">
+							
+							<a href="">
+								<img class="img_d"  alt="软件著作权撤销" title="软件著作权撤销" src="./images/zscq/bqfw/zzqyw_item02.png">
+								<span>软件著作权撤销</span>
+							</a>
+							
+						</div>
+						<div class="z_b_s_c_item">
+							
+							<a href="">
+								<img class="img_d"  alt="软件著作权变更" title="软件著作权变更" src="./images/zscq/bqfw/zzqyw_item03.png">
+								<span>软件著作权变更</span>
+							</a>
+							
+						</div>
+						<div class="z_b_s_c_item">
+							
+							<a href="">
+								<img class="img_d"  alt="软件著作权证书补办" title="软件著作权证书补办" src="./images/zscq/bqfw/zzqyw_item04.png">
+								<span>软件著作权证书补办</span>
+							</a>
+							
+						</div>
+						<div class="z_b_s_c_item">
+							
+							<a href="">
+								<img class="img_d"  alt="软件著作权转让" title="软件著作权转让" src="./images/zscq/bqfw/zzqyw_item05.png">
+								<span>软件著作权转让</span>
+							</a>
+							
+						</div>
+						<div class="z_b_s_c_item">
+							
+							<a href="">
+								<img class="img_d"  alt="软件著作权加急" title="软件著作权加急" src="./images/zscq/bqfw/zzqyw_item06.png">
+								<span>软件著作权加急</span>
+							</a>
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="zscq_bq_why_bg">
+				<div class="zscq_bq_why_bg_title">
+					<span>为什么要保护版权</span>
+				</div>
+				<div class="zscq_bq_why_bg_content">
+					<div class="z_b_w_b_c_item">
+						<h1><span class="iconfont icon-falv1"></span>法律保护</h1>
+						<p>防止抄袭、山寨，打击盗版，是法律保护的重要依据</p>
+					</div>
+					<div class="z_b_w_b_c_item">
+						<h1><span class="iconfont icon-jianmiantui"></span>减免税收</h1>
+						<p>办理高新企业认定的前提，可以享受国家税收优惠政策</p>
+					</div>
+					<div class="z_b_w_b_c_item">
+						<h1><span class="iconfont icon-zichan"></span>无形资产</h1>
+						<p>版权作为无形资产，可同有形资产一样，进行交易、转让，获取丰富利益</p>
+					</div>
+					<div class="z_b_w_b_c_item">
+						<h1><span class="iconfont icon-visible"></span>荣誉资质</h1>
+						<p>个人自我价值的提现，企业创新实力的展现</p>
+					</div>
+				</div>
+			</div>
+			<div class="zscq_bq_qy">
+				<div class="zscq_bq_qy_title">
+					<h3>版权的权益</h3><span></span><p>一证在手，终身受益<br>作品的原创作者及其继承人享有使用或许可他人使用其作品的专有权，最低享有50年。</p>
+				</div>
+				<div class="zscq_bq_qy_content">
+					<img src="./images/zscq/bqfw/cprights.png">
+				</div>
+			</div>
 		</div>
-		<div mid="pzscq_gb" class="mid">
-			<div>zscq_gb</div>
+		<div mid="pzscq_sb" class="mid">
+			<div class="zscq_sb_byx">
+				
+			</div>
+			<div class="zscq_sb_fw">
+				<div class="zscq_sb_fw_title">
+					<h2><span>商标服务</span></h2>
+					<p><span>用心对待每一位客户，用心处理每一个细节。</span></p>
+				</div>
+				<div class="zscq_sb_fw_content">
+					<div class="z_s_f_c_item">
+						<a href="./page.html#pzscq_sb">
+							<img src="./images/zscq/sbfw/fw01.png">
+						</a>
+						<a class="z_s_f_c_item_zx" href="">立即咨询
+						</a>
+
+					</div>
+					<div class="z_s_f_c_item">
+						<a href="./page.html#pzscq_sb">
+							<img src="./images/zscq/sbfw/fw02.png">
+						</a>
+						<a class="z_s_f_c_item_zx" href="">立即咨询
+						</a>
+
+					</div>
+					<div class="z_s_f_c_item">
+						<a href="./page.html#pzscq_sb">
+							<img src="./images/zscq/sbfw/fw03.png">
+						</a>
+						<a class="z_s_f_c_item_zx" href="">立即咨询
+						</a>
+
+					</div>
+					<div class="z_s_f_c_item">
+						<a href="./page.html#pzscq_sb">
+							<img src="./images/zscq/sbfw/fw04.png">
+						</a>
+						<a class="z_s_f_c_item_zx" href="">立即咨询
+						</a>
+
+					</div>
+					<div class="z_s_f_c_item" style="margin-right: 0px;">
+						<a href="./page.html#pzscq_sb">
+							<img src="./images/zscq/sbfw/fw05.png">
+						</a>
+						<a class="z_s_f_c_item_zx" href="">立即咨询
+						</a>
+
+					</div>
+					<div class="z_s_f_c_item">
+						<a href="./page.html#pzscq_sb">
+							<img src="./images/zscq/sbfw/fw06.png">
+						</a>
+						<a class="z_s_f_c_item_zx" href="">立即咨询
+						</a>
+
+					</div>
+					<div class="z_s_f_c_item">
+						<a href="./page.html#pzscq_sb">
+							<img src="./images/zscq/sbfw/fw07.png">
+						</a>
+						<a class="z_s_f_c_item_zx" href="">立即咨询
+						</a>
+
+					</div>
+					<div class="z_s_f_c_item">
+						<a href="./page.html#pzscq_sb">
+							<img src="./images/zscq/sbfw/fw08.png">
+						</a>
+						<a class="z_s_f_c_item_zx" href="">立即咨询
+						</a>
+
+					</div>
+					<div class="z_s_f_c_item">
+						<a href="./page.html#pzscq_sb">
+							<img src="./images/zscq/sbfw/fw09.png">
+						</a>
+						<a class="z_s_f_c_item_zx" href="">立即咨询
+						</a>
+
+					</div>
+					<div class="z_s_f_c_item" style="margin-right: 0px;">
+						<a href="./page.html#pzscq_sb">
+							<img src="./images/zscq/sbfw/fw10.png">
+						</a>
+						<a class="z_s_f_c_item_zx" href="">立即咨询
+						</a>
+
+					</div>
+				</div>
+			</div>
+			<div class="zscq_sb_zclc">
+				<img src="./images/zscq/sbfw/zclc.png">
+			</div>
+			<div class="zscq_sb_ask">
+				<div class="zscq_sb_ask_title">
+					<h2>专业顾问为您解答</h2>
+				</div>
+				<div class="zscq_sb_ask_content">
+					<div class="sb_ask_load">
+                	<h3>商标注册详细资料百科全书</h3>
+                    <p>《商标详细流程及所需资料》</p>
+                    <a onclick="return one_san();" class="sb_ask_load_bt"></a>
+                </div>
+					<div class="sb_ask_01">
+						<a style="cursor:pointer;" onclick="openWin();">商标注册<em>多少<br>钱</em>？&gt;&gt;</a>
+					</div>
+            	<div class="sb_ask_02"><a style="cursor:pointer;" onclick="openWin();">商标注册需要<br><em>多长时间</em>？&gt;&gt;</a></div>
+            	<div class="sb_ask_03"><a style="cursor:pointer;" onclick="openWin();">我的商标<em>与人相同</em><br>怎么办？&gt;&gt;</a></div>
+            	<div class="sb_ask_04"><a style="cursor:pointer;" onclick="openWin();">注册商标<em>在哪申请</em>？<br><em>当地</em>可以申请吗？&gt;&gt;</a></div>
+            	<div class="sb_ask_05"><a style="cursor:pointer;" onclick="openWin();">注册商标需要<br><em>哪些资料</em>？&gt;&gt;</a></div>
+            	<div class="sb_ask_06"><a style="cursor:pointer;" onclick="openWin();">很着急，能直接买<br>一个商标吗？&gt;&gt;</a></div>
+            	<div class="sb_ask_07"><a style="cursor:pointer;" onclick="openWin();">商标可以<em>自己<br>注册</em>吗？&gt;&gt;</a></div>
+            	<div class="sb_ask_08"><a style="cursor:pointer;" onclick="openWin();">中文、英文、图形商标<br>有什么区别？&gt;&gt;</a></div>
+            	<div class="sb_ask_09"><a style="cursor:pointer;" onclick="openWin();">商标起名有什么<br>要求吗？&gt;&gt;</a></div>
+            	<div class="sb_ask_10"><a style="cursor:pointer;" onclick="openWin();">注册商标是100%<br>成功吗？&gt;&gt;</a></div>
+				</div>
+			</div>
+			<div class="zscq_sb_zcjz">
+				<img src="./images/zscq/sbfw/zcjz.jpg">
+			</div>
 		</div>
 		<!-- 双软认定 -->
 		<div mid="psrrd" class="mid">
@@ -1095,6 +1363,9 @@
 					<div mid="zscq_3" class="tid">知识产权3</div>
 				</div>
 			</div>
+		</div>
+		<div mid="pxwzx" class="mid">
+			<div>新闻资讯</div>
 		</div>
 		<div mid="pcontact" class="mid">
 			<div>contact</div>

@@ -473,6 +473,7 @@
 	width: 1200px;
 	margin:auto;
 	height: 470px;
+	margin-top: 20px;
 	margin-bottom: 50px;
 }
 .zscq_zyx_content .z_z_c_left
@@ -510,4 +511,370 @@
 	font-size: 14px;
     color: #888888;
     line-height: 22px;
+}
+
+.zscq_sb_byx
+{
+	background: url(./../images/zscq/sbfw/sb01.jpg) no-repeat center;
+	height: 520px;
+	position: relative;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+.zscq_sb_fw
+{
+	width: 1200px;
+	margin:auto;
+}
+.zscq_sb_fw_title
+{
+	border-left: 4px solid #ff4949;
+	height: 56px;
+	position: relative;
+}
+.zscq_sb_fw_title h2
+{
+	position: absolute;
+	margin:0;
+	padding: 0;
+	left:10px;
+	top:-8px; 
+	font-size: 28px;
+}
+.zscq_sb_fw_title p
+{
+	position: absolute;
+	top:22px;
+	left:10px; 
+	color: #999999;
+}
+.zscq_sb_fw_content
+{
+	margin-top:50px; 
+}
+.z_s_f_c_item
+{
+	text-align: center;
+    width: 222px;
+    height: 224px;
+    box-sizing: border-box;
+    border: 1px solid #CCCBCB;
+    margin-right: 22.5px;
+    margin-bottom: 22.5px;
+    float: left;
+}
+.z_s_f_c_item:hover
+{
+	border:1px solid #ff4949;
+
+}
+.z_s_f_c_item_zx
+{
+	height: 38px;
+    border-radius: 20px;
+    line-height: 38px;
+    font-size: 16px!important;
+    padding: 0 30px;
+    border: 1px solid #FF4949;
+    color: #FF4949;
+    display: inline-block;
+}
+.z_s_f_c_item_zx:hover
+{
+	color: #FFFFFF;background: #FF4949;
+}
+.zscq_sb_zclc
+{
+	clear: both;
+	width: 1200px;
+	margin: auto;
+	margin-top:50px;
+}
+.zscq_sb_ask
+{
+	background: #e5f9ff;
+    padding: 80px 0;
+    text-align: center;
+}
+.zscq_sb_ask_title h2
+{
+	margin-bottom: 46px;
+    font-size: 36px;
+    color: #323232;
+    text-align: center
+}
+.zscq_sb_ask_content
+{
+	background: url(./../images/zscq/sbfw/ask_bk.png) no-repeat center;
+	width: 1067px;
+    height: 769px;
+    margin: 0 auto;
+    position: relative;
+}
+.zscq_sb_ask_content div
+{
+	position: absolute;
+	color: #646464;
+}
+
+.sb_ask_load
+{
+	position: absolute;
+    left: 40px;
+    padding-top: 25px;
+    width: 328px;
+    height: 205px;
+    background: url(./../images/zscq/sbfw/ask_load_bk.png) no-repeat 0 0;
+    text-align: center;
+}
+.sb_ask_load h3
+{
+	padding: 0;
+	margin-top:0px;
+	font-size: 22px;
+    color: #2d2d2d;
+}
+.sb_ask_load p
+{
+	font-size: 16px;
+    color: #4f4f4f;
+}
+.sb_ask_load_bt
+{
+	margin: 15px auto 0;
+    display: block;
+    width: 216px;
+    height: 43px;
+    overflow: hidden;
+    background: url(./../images/zscq/sbfw/ask_load_bt.png) no-repeat 0 0;
+    text-indent: -9999em;
+}
+
+.sb_ask_01
+{
+	left: 775px;
+    top: 480px;
+}
+
+.sb_ask_01 a
+{
+	
+    font-size: 22px;
+    color: #4c4c4c;
+}
+.zscq_sb_ask_content em
+{
+	color: #fe5840;
+	font-style: normal;
+    font-weight: normal;
+}
+.sb_ask_02
+{
+	position: absolute;
+	left: 753px;
+    top: 173px;
+    font-size: 22px;
+}
+.sb_ask_03
+{
+	left: 170px;
+    top: 464px;
+    font-size: 20px;
+}
+.sb_ask_04
+{
+	left: 456px;
+    top: 671px;
+    font-size: 16px;
+}
+.sb_ask_05
+{
+	left: 575px;
+    top: 55px;
+    font-size: 18px;
+}
+.sb_ask_06
+{
+	    left: 937px;
+    top: 368px;
+    font-size: 15px;
+}
+.sb_ask_07
+{
+	    left: 261px;
+    top: 641px;
+    font-size: 20px;
+}
+.sb_ask_08
+{
+	left: 8px;
+    top: 383px;
+    font-size: 14px;
+}
+.sb_ask_09
+{
+	    left: 191px;
+    top: 279px;
+    font-size: 15px;
+}
+.sb_ask_10
+{
+	    left: 654px;
+    top: 631px;
+    font-size: 12px;
+}
+.zscq_sb_zcjz
+{
+	margin:auto;
+	width: 1200px;
+}
+.zscq_bq_why_bg
+{
+	clear: both;
+}
+
+.zscq_bq_why_bg_title
+{
+	width: 1200px;
+	color: #2ea9ff;
+	font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 130px;
+    font-style: italic;
+    margin:auto;
+}
+
+.zscq_bq_why_bg_content
+{
+	margin:auto;
+	width: 1240px;
+	height: 200px;
+}
+
+.z_b_w_b_c_item{width: 280px;height: 185px;margin: 0 15px;box-shadow: 5px 5px 10px #d3d3d3;background: url(./../images/zscq/bqfw/why_lanse.png)top center no-repeat;float: left;background-position-y: -125px;transition: all .5s}
+.z_b_w_b_c_item h1{text-align: center;color: #fff;font-size: 24px;line-height: 60px;font-weight: bold;padding: 0px;margin: 0px}
+.z_b_w_b_c_item h1 span{font-size: 28px;padding-right: 5px;}
+.z_b_w_b_c_item p{font-size: 16px;color: #6b6b6b;line-height: 26px;padding: 25px 30px 0;transition: all .3s}
+.z_b_w_b_c_item:hover{background-position-y: 0px;}
+.z_b_w_b_c_item:hover p{color: #fff}
+
+.zscq_bq_qy_title
+{
+
+}
+.zscq_bq_qy_title
+{
+	width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #222;
+    text-align: center;
+}
+.zscq_bq_qy_title span
+{
+	display: block;
+    width: 40px;
+    height: 5px;
+    margin: 6px auto 0;
+    background: #0051d8;
+}
+.zscq_bq_qy_title p
+{
+	margin-top: 20px;
+    font-size: 21px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    font-weight: normal;
+}
+.zscq_bq_qy_content
+{
+	margin: auto;
+	text-align: center;
+}
+
+.zscq_bq_sq_title h3
+{
+	text-align: center;
+    font-size: 50px;
+    color: #333333;
+    height: 67px;
+    line-height: 67px;
+    margin-top: 32px;
+    font-weight: normal;
+}
+.zscq_bq_sq_title h3 font{font-weight: bold;}
+.zscq_bq_sq_sel
+{
+	width: 458px;
+	margin: auto;
+	height: 50px;
+}
+.sel_item
+{
+	display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 219px;
+    height: 43px;
+    line-height: 43px;
+    border-radius: 5px;
+    background: #D6D6D6;
+    font-size: 16px;
+    color: #333333;
+    margin: 0 2px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+
+}
+.zscq_bq_sq_sel div.active
+{
+	background: linear-gradient(#F2A204, #DD3718);
+    color: #fff;
+}
+.zscq_bq_sq_content
+{
+	clear: both;
+	width: 1236px;
+	margin: auto;
+	margin-top:24px;
+}
+.z_b_s_c_item
+{
+	width: 190px;height: 263px;
+	margin:0 6px;
+	border:1px solid #CCCCCC;
+	border-radius: 10px;
+	background: #fff;
+	display: inline-block;
+	*display:inline;
+	*zoom: 1;
+	overflow: hidden;
+	text-align: center;
+}
+.z_b_s_c_item:hover
+{
+	border:1px solid #fff;box-shadow:0 0 24px -2px #333;
+}
+.z_b_s_c_item img
+{
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.z_b_s_c_item span
+{
+	width: 170px;
+    height: 68px;
+    line-height: 68px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+  	display: block;
 }
