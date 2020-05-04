@@ -1,0 +1,24 @@
+.pabout_js
+{
+	margin: auto;
+	width: 1200px;
+}
+.pabout_title
+{
+	font-size: 28px;
+    line-height: 1em;
+    padding-bottom: 13px;
+    color: #666;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.pabout_content p
+{
+	text-indent:2em;
+	text-align: left;
+	font-size: 16px;
+    line-height: 2em;
+    color: #666;
+}
