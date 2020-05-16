@@ -783,7 +783,7 @@ a{
 .fotter
 {
 	clear: both;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
 
 .fotter_top
@@ -854,22 +854,41 @@ a{
 .rmxmtj_item
 {
 	
-	height: 240px;
-	width: 285px;
+	/*height: 240px;
+	width: 28348培 5px;
 	margin-right: 20px;
 	background: #FFF; 
 	float: left;
 	box-shadow:3px 3px 3px #eee;
 	transition: .3s;
-	margin-top: 0px; 
+	margin-top: 0px; */
+
+	width: 380px;
+    height: 240px;
+    margin-right: 20px;
+    background: #FFFFFF;
+    float: left;
+    padding: 40px 20px 0;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.14);
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 
 }
-.rmxmtj_item div
+.rmxmtj_item .d_img
 {
 	width: 138px;
 	height: 100px;
 	margin:auto;
 	margin-top:20px;
+	float: left;
+}
+.rmxmtj_item .d_span
+{
+	float: left;
+	text-align: left;
+	margin-left: 20px;
 }
 .rmxmtj_item span
 {
@@ -877,20 +896,21 @@ a{
 	font-size: 18px;
     line-height: 18px;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
     height: 30px;
     width: 100%;
     display: block;
 
+
 }
 .rmxmtj_item a
 {
-	margin: auto;
+	/*margin: auto;*/
 	font-size: 14px;
     color: #A80000;
     display: block;
     line-height: 32px;
-    margin-top: 10px;
+    margin-top: 30px;
     height: 32px;
     width: 98px;
     text-align: center;
@@ -907,36 +927,53 @@ a{
 	border: 1px solid #A80000;
 
 }
+.border
+{
+	width: 60px;
+}
 .h_r_btc1
 {
 	border-top: 3px solid #00cc99;
 }
+.h_r_btc1 .border
+{
+	border-bottom: 2px solid #00cc99;
+}
+
 .h_r_btc2
 {
 	border-top: 3px solid #1088d5;
+}
+.h_r_btc2 .border
+{
+	border-bottom: 2px solid #1088d5;
 }
 .h_r_btc3
 {
 	border-top: 3px solid #f05a25;
 	
 }
+.h_r_btc3 .border
+{
+	border-bottom: 2px solid #f05a25;
+}
 .h_r_btc4
 {
 	border-top: 3px solid #10be51;
 }
-.h_r_btc1 div
+.h_r_btc1 .d_img
 {
 	background:  url(./../images/home/rmxmtj01.png) no-repeat;
 }
-.h_r_btc2 div
+.h_r_btc2 .d_img
 {
 	background:  url(./../images/home/rmxmtj02.png) no-repeat;
 }
-.h_r_btc3 div
+.h_r_btc3 .d_img
 {
 	background:  url(./../images/home/rmxmtj03.png) no-repeat;
 }
-.h_r_btc4 div
+.h_r_btc4 .d_img
 {
 	background:  url(./../images/home/rmxmtj01.png) no-repeat;
 }

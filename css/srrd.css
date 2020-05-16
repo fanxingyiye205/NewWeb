@@ -23,6 +23,9 @@
 .sr_lc
 {
 	margin-top: 50px;
+	background: url(./../images/srrd/lcbk.jpg) no-repeat center; 
+	padding-top:20px;
+	padding-bottom: 20px;  
 
 }
 .sr_lc_content
@@ -110,8 +113,11 @@
 }
 .sr_yhzc
 {
-	margin: 50px 0;
-	height: 470px;
+	/*margin: 50px 0;*/
+	height: 530px;
+	background: #F8F8F8;
+	padding-top:20px;
+	padding-bottom: 20px;  
 }
 
 .sr_yhzc_content

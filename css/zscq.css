@@ -241,12 +241,13 @@
 	height: 500px;
 }
 
-.pzscq_fw_item
+.pzscq_fw_item 
 {
 	width: 300px;
 	height: 190px;
 	text-align: left;
 	margin-left: 20px;
+	margin-right:20px; 
 	/*box-shadow:1px 1px 1px 1px #ECECEC;*/
 	transition: .5s;
 	cursor: pointer;
@@ -512,20 +513,26 @@
     color: #888888;
     line-height: 22px;
 }
-
+.zscq_sb_bg
+{
+	background: #F8F8F8;
+	height: 550;
+	width: 100%;
+}
 .zscq_sb_byx
 {
 	background: url(./../images/zscq/sbfw/sb01.jpg) no-repeat center;
-	height: 520px;
+	height: 582px;
 	position: relative;
-	margin-top:20px;
-	margin-bottom:50px;
+	padding-top:20px;
+	padding-bottom:50px;
 }
 
 .zscq_sb_fw
 {
 	width: 1200px;
 	margin:auto;
+	height: 580px;
 }
 .zscq_sb_fw_title
 {
@@ -589,7 +596,7 @@
 	clear: both;
 	width: 1200px;
 	margin: auto;
-	margin-top:50px;
+	/*margin-top:50px;*/
 }
 .zscq_sb_ask
 {

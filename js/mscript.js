@@ -406,3 +406,26 @@ $(function(){
 		}
 	});
 });
+
+$(function(){
+	var url = window.location.hash;
+	console.log(url);
+	var arr = url.split("#");
+	if(arr[1] == "pxwzx")
+	{
+		$(".pnews_content").css("display","none");
+		if(arr.length>2)
+			$("div[mid='"+arr[2]+"']").css("display","block");
+		{
+			$("div[mid='hyzx']").css("display","block");
+		}
+	}
+	$(".pnews_menu_li>a").click(function(){
+		var hr = $(this).attr("href");
+		console.log(hr);
+		var arr = hr.split("#");
+		console.log(arr);
+		$(".pnews_content").css("display","none");
+		$("div[mid='"+arr[2]+"']").css("display","block");
+	});
+});
